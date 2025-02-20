@@ -1,6 +1,6 @@
 # Pokémon Gold and Silver [![Build Status][ci-badge]][ci]
 
-This is a disassembly of Pokémon Gold and Pokémon Silver.
+This is a disassembly of Pokémon Gold and Pokémon Silver forked from pret/pokegold.
 
 It builds the following ROMs:
 
@@ -13,17 +13,118 @@ It builds the following ROMs:
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
+# Changes
+## General
+- Increase shiny odds to roughly 1/105 (if all DVs are greater than 11)
+- Red Gyarados has slightly stronger DVs (to ensure it's still shiny with new criteria).
+- Lugia/Ho-Oh re-learn signature moves at level 70
+- Evolution stones sold at Cianwood Mart
+- Ghost is Special
+- Dark is Physical
+- Fixed Dragon Scale not Dragon Fang boosting dragon type moves
 
-## See also
+## Evolutions
+- Kadabra using Everstone
+- Machoke using Everstone
+- Haunter using Everstone
+- Graveler using Everstone
+- Scyther using Metal Coat
+- Seadra using Dragon Scale
+- Onix using Metal Coat
+- Porygon using Up Grade
+- Poliwhirl to Politoed using King's Rock
+- Slowpoke to Slowking using King's Rock
 
-- [**Symbols**][symbols]
-- [**Tools**][tools]
+## Pokemon Locations
+Trades:
+- Trade Dragonair for Larvitar (holding lucky egg)
+- Kenya is now a Murkrow
 
-You can find us on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
+Legends:
+- Articuno Lvl 50 - Route 25 (1%)
+- Zapdos Lvl 50 - Route 10 (1%)
+- Moltres Lvl 50 - Route 21 (1%)
+- Mewtwo Lvl 70 - Silver Cave (1%)
+- Mew Lvl 50 - Route 1 (1%)
+- Celebi Lvl 5 - Ilex Forest (1%)
 
-For other pret projects, see [pret.github.io](https://pret.github.io/).
+Starters:
+- Bulbasaur - Route 1 (30%)
+- Charmander - Route 1 (30%)
+- Bulbasaur - Route 1 (30%)
+- Chikorita - Route 44 (30%)
+- Cyndaquil - Route 44 (30%)
+- Totodile - Route 44 Surf (30%)
 
-[symbols]: https://github.com/pret/pokegold/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/pret/pokegold/actions
-[ci-badge]: https://github.com/pret/pokegold/actions/workflows/main.yml/badge.svg
+Non-Gold exclusives:
+- Omanyte - Rock Smash anywhere (10%)
+- Kabuto - Rock Smash anywhere (10%)
+- Vulpix - Route 36, 37 (Morn 10%), Route 7, 8 (Morn 10-20%)
+- Meowth - Route 38, 39, 5, 6, 7, 8 (20-30%)
+- Ledyba - Route 30, 31, 37, 2 (Morn 30-40%)
+- Delibird - Ice Path (20%)
+- Skarmory - Route 45 (5%)
+- Phanpy - Route 45, 46 (Morn 10%)
+
+Johto stuff you could only find in Kanto before:
+- Houndour - Route 36, 37 (Night 10%), Route 8 (Night 5%)
+- Sneasel - Ice Path (Night 5%)
+- Misdreavus - Sprout Tower (Night 15%)
+- Slugma - Burned Tower B1F (20%)
+
+Extra:
+- Weedle - Ilex Forest (Morn/Day 30%)
+
+## Moves
+- Cut 70 power
+- Vine Whip 25 pp
+- Poison Sting 25 power
+- Fire Spin 35 power, 85 accuracy
+- Whirlpool 35 power, 85 accuracy
+- Waterfall 20% flinch chance
+- Rock Smash 45 power
+- Flash 30 power, 100 accuracy
+
+## TMs
+These Kanto city marts sell TMs:
+
+### Viridian
+- 1 Dynamic Punch
+- 15 Hyper Beam
+- 24 Dragon Breath
+- 38 Fire Blast
+- 39 Swift
+
+### Pewter
+- 4 Rollout
+- 23 Iron tail
+- 26 Earthquake
+- 28 Dig
+- 47 Steel Wing
+
+### Cerulean
+- 14 Blizzard
+- 16 Icy Wind
+
+### Lavender
+- 30 Shadowball
+- 50 Nightmare
+
+### Vermilion
+- 7 Zap Cannon
+- 25 Thunder
+
+### Celadon
+- 19 Giga Drain
+- 22 Solar Beam
+- 49 Fury Cutter
+
+### Fuchsia
+- 6 Toxic
+- 36 Sludge Bomb
+
+### Saffron
+- 29 Psychic
+- 42 Dream Eater
+- 44 Rest
+- 46 Thief

@@ -14,26 +14,25 @@ CheckShininess:
 
 ; Attack
 	ld a, [hl]
-	and SHINY_ATK_MASK << 4
-	jr z, .not_shiny
+	cp 11 << 4
+	jr c, .not_shiny
 
 ; Defense
 	ld a, [hli]
 	and %1111
-	cp SHINY_DEF_DV
-	jr nz, .not_shiny
+	cp 11
+	jr c, .not_shiny
 
 ; Speed
 	ld a, [hl]
-	and %1111 << 4
-	cp SHINY_SPD_DV << 4
-	jr nz, .not_shiny
+	cp 11 << 4
+	jr c, .not_shiny
 
 ; Special
 	ld a, [hl]
 	and %1111
-	cp SHINY_SPC_DV
-	jr nz, .not_shiny
+	cp 11
+	jr c, .not_shiny
 
 ; shiny
 	scf

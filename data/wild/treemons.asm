@@ -90,6 +90,8 @@ TreeMonSet_Canyon:
 	db -1
 
 TreeMonSet_Rock:
-	db 90, KRABBY,     15
+	db 70, KRABBY,     15
+	db 10, OMANYTE,    15
+	db 10, KABUTO,     15
 	db 10, SHUCKLE,    15
 	db -1
