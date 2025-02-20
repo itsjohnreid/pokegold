@@ -231,29 +231,29 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, PIDGEY
-	db 2, RATTATA
-	db 3, SENTRET
-	db 3, PIDGEY
-	db 6, FURRET
+	db 5, BULBASAUR
+	db 5, CHARMANDER
+	db 5, SQUIRTLE
+	db 5, SQUIRTLE
+	db 6, PIDGEY
 	db 4, PIDGEY
-	db 4, PIDGEY
+	db 50, MEW
 	; day
-	db 2, PIDGEY
-	db 2, RATTATA
-	db 3, SENTRET
-	db 3, PIDGEY
-	db 6, FURRET
+	db 5, BULBASAUR
+	db 5, CHARMANDER
+	db 5, SQUIRTLE
+	db 5, SQUIRTLE
+	db 6, PIDGEY
 	db 4, PIDGEY
-	db 4, PIDGEY
+	db 50, MEW
 	; nite
-	db 2, HOOTHOOT
-	db 2, RATTATA
-	db 3, RATTATA
-	db 3, HOOTHOOT
-	db 6, RATTATA
+	db 5, BULBASAUR
+	db 5, CHARMANDER
+	db 5, SQUIRTLE
+	db 5, SQUIRTLE
+	db 6, HOOTHOOT
 	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 50, MEW
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_2
@@ -261,10 +261,10 @@ KantoGrassWildMons:
 	IF DEF(_GOLD)
 	; morn
 	db 3, CATERPIE
-	db 3, PIDGEY
+	db 3, LEDYBA
 	db 5, METAPOD
 	db 7, BUTTERFREE
-	db 7, PIDGEOTTO
+	db 7, LEDIAN
 	db 4, PIKACHU
 	db 4, PIKACHU
 	; day
@@ -424,32 +424,6 @@ KantoGrassWildMons:
 
 	def_grass_wildmons ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	IF DEF(_GOLD)
-	; morn
-	db 13, PIDGEY
-	db 13, BELLSPROUT
-	db 14, PIDGEY
-	db 15, PIDGEY
-	db 12, ABRA
-	db 14, ABRA
-	db 14, ABRA
-	; day
-	db 13, PIDGEY
-	db 13, BELLSPROUT
-	db 14, PIDGEY
-	db 15, PIDGEY
-	db 12, ABRA
-	db 14, ABRA
-	db 14, ABRA
-	; nite
-	db 13, ODDISH
-	db 14, ODDISH
-	db 13, BELLSPROUT
-	db 15, GLOOM
-	db 12, ABRA
-	db 14, ABRA
-	db 14, ABRA
-	ELIF DEF(_SILVER)
 	; morn
 	db 13, PIDGEY
 	db 13, BELLSPROUT
@@ -474,37 +448,10 @@ KantoGrassWildMons:
 	db 12, ABRA
 	db 14, ABRA
 	db 14, ABRA
-	ENDC
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_6
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	IF DEF(_GOLD)
-	; morn
-	db 13, PIDGEY
-	db 13, BELLSPROUT
-	db 14, PIDGEY
-	db 15, MAGNEMITE
-	db 12, ABRA
-	db 14, ABRA
-	db 14, ABRA
-	; day
-	db 13, PIDGEY
-	db 13, BELLSPROUT
-	db 14, PIDGEY
-	db 15, MAGNEMITE
-	db 12, ABRA
-	db 14, ABRA
-	db 14, ABRA
-	; nite
-	db 13, ODDISH
-	db 14, ODDISH
-	db 13, BELLSPROUT
-	db 15, MAGNEMITE
-	db 12, ABRA
-	db 14, ABRA
-	db 14, ABRA
-	ELIF DEF(_SILVER)
 	; morn
 	db 13, PIDGEY
 	db 13, BELLSPROUT
@@ -529,34 +476,33 @@ KantoGrassWildMons:
 	db 12, ABRA
 	db 14, ABRA
 	db 14, ABRA
-	ENDC
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_7
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	IF DEF(_GOLD)
 	; morn
-	db 17, RATTATA
+	db 17, MEOWTH
 	db 17, SPEAROW
-	db 18, GROWLITHE
+	db 18, VULPIX
 	db 19, RATICATE
-	db 19, RATTATA
+	db 19, PERSIAN
 	db 15, RATTATA
 	db 15, RATTATA
 	; day
-	db 17, RATTATA
+	db 17, MEOWTH
 	db 17, SPEAROW
 	db 18, GROWLITHE
 	db 19, RATICATE
-	db 19, RATTATA
+	db 19, PERSIAN
 	db 15, GROWLITHE
 	db 15, GROWLITHE
 	; nite
-	db 17, RATTATA
+	db 17, MEOWTH
 	db 17, MURKROW
-	db 18, GROWLITHE
+	db 18, VULPIX
 	db 19, RATICATE
-	db 19, MURKROW
+	db 19, PERSIAN
 	db 15, HOUNDOUR
 	db 15, HOUNDOUR
 	ELIF DEF(_SILVER)
@@ -591,15 +537,15 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	IF DEF(_GOLD)
 	; morn
-	db 17, PIDGEOTTO
+	db 17, MEOWTH
 	db 19, PIDGEOTTO
 	db 15, ABRA
-	db 18, GROWLITHE
+	db 18, VULPIX
 	db 17, PIDGEOTTO
 	db 15, KADABRA
 	db 15, KADABRA
 	; day
-	db 17, PIDGEOTTO
+	db 17, MEOWTH
 	db 19, PIDGEOTTO
 	db 15, ABRA
 	db 18, GROWLITHE
@@ -607,11 +553,11 @@ KantoGrassWildMons:
 	db 15, KADABRA
 	db 15, KADABRA
 	; nite
-	db 17, NOCTOWL
+	db 17, MEOWTH
 	db 20, HAUNTER
 	db 15, ABRA
 	db 19, NOCTOWL
-	db 18, GROWLITHE
+	db 18, HOUNDOUR
 	db 15, KADABRA
 	db 15, KADABRA
 	ELIF DEF(_SILVER)
@@ -706,7 +652,7 @@ KantoGrassWildMons:
 	db 18, FEAROW
 	db 16, QUAGSIRE
 	db 15, ELECTABUZZ
-	db 15, ELECTABUZZ
+	db 50, ZAPDOS
 	; day
 	db 16, SPEAROW
 	db 17, VOLTORB
@@ -714,7 +660,7 @@ KantoGrassWildMons:
 	db 18, FEAROW
 	db 15, ELECTABUZZ
 	db 17, ELECTABUZZ
-	db 17, ELECTABUZZ
+	db 50, ZAPDOS
 	; nite
 	db 16, QUAGSIRE
 	db 17, VOLTORB
@@ -722,7 +668,7 @@ KantoGrassWildMons:
 	db 17, QUAGSIRE
 	db 18, RATICATE
 	db 15, ELECTABUZZ
-	db 15, ELECTABUZZ
+	db 50, ZAPDOS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_11
@@ -1011,7 +957,7 @@ KantoGrassWildMons:
 	db 20, TANGELA
 	db 30, TANGELA
 	db 28, MR__MIME
-	db 28, MR__MIME
+	db 50, MOLTRES
 	; day
 	db 30, TANGELA
 	db 25, TANGELA
@@ -1019,7 +965,7 @@ KantoGrassWildMons:
 	db 20, TANGELA
 	db 28, MR__MIME
 	db 30, MR__MIME
-	db 30, MR__MIME
+	db 50, MOLTRES
 	; nite
 	db 30, TANGELA
 	db 25, TANGELA
@@ -1027,7 +973,7 @@ KantoGrassWildMons:
 	db 20, TANGELA
 	db 30, TANGELA
 	db 28, MR__MIME
-	db 28, MR__MIME
+	db 50, MOLTRES
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_22
@@ -1095,7 +1041,7 @@ KantoGrassWildMons:
 	db 9, ABRA
 	db 10, PIDGEOTTO
 	db 14, WEEPINBELL
-	db 14, WEEPINBELL
+	db 50, ARTICUNO
 	; day
 	db 8, PIDGEY
 	db 10, BELLSPROUT
@@ -1103,7 +1049,7 @@ KantoGrassWildMons:
 	db 9, ABRA
 	db 12, PIDGEOTTO
 	db 14, WEEPINBELL
-	db 14, WEEPINBELL
+	db 50, ARTICUNO
 	; nite
 	db 8, VENONAT
 	db 10, ODDISH
@@ -1111,7 +1057,7 @@ KantoGrassWildMons:
 	db 9, ABRA
 	db 14, WEEPINBELL
 	db 10, BELLSPROUT
-	db 10, BELLSPROUT
+	db 50, ARTICUNO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_26

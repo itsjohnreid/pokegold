@@ -82,12 +82,17 @@ MartAzalea:
 	db -1 ; end
 
 MartCianwood:
-	db 5 ; # items
-	db POTION
-	db SUPER_POTION
-	db HYPER_POTION
-	db FULL_HEAL
-	db REVIVE
+	db 10 ; # items
+	db EVERSTONE
+	db MOON_STONE
+	db SUN_STONE
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
+	db METAL_COAT
+	db KINGS_ROCK
+	db DRAGON_SCALE
 	db -1 ; end
 
 MartGoldenrod2F1:
@@ -227,64 +232,62 @@ MartBlackthorn:
 	db -1 ; end
 
 MartViridian:
-	db 9 ; # items
+	db 10 ; # items
 	db ULTRA_BALL
 	db HYPER_POTION
 	db FULL_HEAL
 	db REVIVE
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
 	db FLOWER_MAIL
+	db TM_DYNAMICPUNCH
+	db TM_HYPER_BEAM
+	db TM_DRAGONBREATH
+	db TM_FIRE_BLAST
+	db TM_SWIFT
 	db -1 ; end
 
 MartPewter:
-	db 7 ; # items
+	db 8 ; # items
 	db GREAT_BALL
 	db SUPER_POTION
 	db SUPER_REPEL
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
+	db TM_ROLLOUT
+	db TM_IRON_TAIL
+	db TM_EARTHQUAKE
+	db TM_DIG
+	db TM_STEEL_WING
 	db -1 ; end
 
 MartCerulean:
-	db 9 ; # items
+	db 8 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db SUPER_POTION
 	db SUPER_REPEL
 	db FULL_HEAL
-	db X_DEFEND
-	db X_ATTACK
-	db DIRE_HIT
 	db SURF_MAIL
+	db TM_BLIZZARD
+	db TM_ICY_WIND
 	db -1 ; end
 
 MartLavender:
-	db 8 ; # items
+	db 5 ; # items
 	db GREAT_BALL
 	db POTION
 	db SUPER_POTION
 	db MAX_REPEL
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
+	db TM_SHADOW_BALL
+	db TM_NIGHTMARE
 	db -1 ; end
 
 MartVermilion:
-	db 8 ; # items
+	db 7 ; # items
 	db ULTRA_BALL
 	db SUPER_POTION
 	db HYPER_POTION
 	db REVIVE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
 	db LITEBLUEMAIL
+	db TM_ZAP_CANNON
+	db TM_THUNDER
 	db -1 ; end
 
 MartCeladon2F1:
@@ -313,12 +316,15 @@ MartCeladon2F2:
 	db -1 ; end
 
 MartCeladon3F:
-	db 5 ; # items
+	db 8 ; # items
 	db TM_HIDDEN_POWER
 	db TM_SUNNY_DAY
 	db TM_PROTECT
 	db TM_RAIN_DANCE
 	db TM_SANDSTORM
+	db TM_GIGA_DRAIN
+	db TM_SOLARBEAM
+	db TM_FURY_CUTTER
 	db -1 ; end
 
 MartCeladon4F:
@@ -349,7 +355,7 @@ MartCeladon5F2:
 	db -1 ; end
 
 MartFuchsia:
-	db 7 ; # items
+	db 9 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db SUPER_POTION
@@ -357,18 +363,22 @@ MartFuchsia:
 	db FULL_HEAL
 	db MAX_REPEL
 	db FLOWER_MAIL
+	db TM_TOXIC
+	db TM_SLUDGE_BOMB
 	db -1 ; end
 
 MartSaffron:
-	db 8 ; # items
+	db 10 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db HYPER_POTION
 	db MAX_POTION
 	db FULL_HEAL
-	db X_ATTACK
-	db X_DEFEND
 	db FLOWER_MAIL
+	db TM_PSYCHIC_M
+	db TM_DREAM_EATER
+	db TM_REST
+	db TM_THIEF
 	db -1 ; end
 
 MartMtMoon:

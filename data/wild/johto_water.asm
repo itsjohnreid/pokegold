@@ -197,7 +197,7 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_44
 	db 2 percent ; encounter rate
 	db 25, POLIWAG
-	db 20, POLIWAG
+	db 20, TOTODILE
 	db 25, POLIWHIRL
 	end_water_wildmons
 
