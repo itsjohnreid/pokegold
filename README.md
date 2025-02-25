@@ -1,6 +1,6 @@
-# Pokémon Gold and Silver [![Build Status][ci-badge]][ci]
+# Pokémon Pure Gold
 
-This is a disassembly of Pokémon Gold and Pokémon Silver forked from pret/pokegold.
+This is a mod of the disassembly of Pokémon Gold and Pokémon Silver forked from pret/pokegold.
 
 It builds the following ROMs:
 
