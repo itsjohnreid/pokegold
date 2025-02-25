@@ -252,10 +252,10 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw BuzzDescription
+	dw ShriekDescription
+	dw VenomFangDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFCDescription
-	dw MoveFDDescription
-	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
@@ -1270,3 +1270,15 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+BuzzDescription:
+	db   "A loud buzz that"
+	next "may confuse.@"
+
+ShriekDescription:
+	db   "A high shriek. May"
+	next "cause flinching.@"
+
+VenomFangDescription:
+	db   "An attack that may"
+	next "poison the foe.@"

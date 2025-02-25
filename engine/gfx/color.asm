@@ -14,24 +14,24 @@ CheckShininess:
 
 ; Attack
 	ld a, [hl]
-	cp 11 << 4
+	cp 12 << 4
 	jr c, .not_shiny
 
 ; Defense
 	ld a, [hli]
 	and %1111
-	cp 11
+	cp 12
 	jr c, .not_shiny
 
 ; Speed
 	ld a, [hl]
-	cp 11 << 4
+	cp 12 << 4
 	jr c, .not_shiny
 
 ; Special
 	ld a, [hl]
 	and %1111
-	cp 11
+	cp 12
 	jr c, .not_shiny
 
 ; shiny

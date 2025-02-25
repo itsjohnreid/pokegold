@@ -213,7 +213,7 @@ GeodudeEggMoves:
 	db -1 ; end
 
 PonytaEggMoves:
-	db FLAME_WHEEL
+	db FLAMETHROWER
 	db THRASH
 	db DOUBLE_KICK
 	db HYPNOSIS
@@ -269,6 +269,7 @@ ShellderEggMoves:
 	db -1 ; end
 
 GastlyEggMoves:
+	db SHRIEK
 	db PSYWAVE
 	db PERISH_SONG
 	db HAZE
@@ -486,6 +487,7 @@ LedybaEggMoves:
 	db PSYBEAM
 	db BIDE
 	db LIGHT_SCREEN
+	db BUZZ
 	db -1 ; end
 
 SpinarakEggMoves:
@@ -607,6 +609,7 @@ MurkrowEggMoves:
 	db -1 ; end
 
 MisdreavusEggMoves:
+	db PSYBEAM
 	db SCREECH
 	db DESTINY_BOND
 	db -1 ; end
@@ -735,6 +738,7 @@ SkarmoryEggMoves:
 	db -1 ; end
 
 HoundourEggMoves:
+	db VENOM_FANG
 	db FIRE_SPIN
 	db RAGE
 	db PURSUIT

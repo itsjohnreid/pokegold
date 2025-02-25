@@ -15,8 +15,8 @@ DEF PHYSICAL EQU const_value
 	const ROCK
 	const BIRD
 	const BUG
-	const STEEL
 	const DARK
+	const STEEL
 
 DEF UNUSED_TYPES EQU const_value
 	const_next 19

@@ -1386,7 +1386,7 @@ JohtoGrassWildMons:
 	db 2, ZUBAT
 	db 2, GEODUDE
 	db 4, GEODUDE
-	db 3, ZUBAT
+	db 2, TEDDIURSA
 	db 4, ZUBAT
 	db 4, DUNSPARCE
 	; day
@@ -1413,16 +1413,16 @@ JohtoGrassWildMons:
 	db 23, GEODUDE
 	db 23, ZUBAT
 	db 25, GRAVELER
-	db 20, WOBBUFFET
-	db 25, WOBBUFFET
+	db 25, URSARING
+	db 20, TEDDIURSA
 	db 23, GOLBAT
 	db 23, GOLBAT
 	; day
 	db 23, GEODUDE
 	db 23, ZUBAT
 	db 25, GRAVELER
-	db 20, WOBBUFFET
-	db 25, WOBBUFFET
+	db 25, URSARING
+	db 30, URSARING
 	db 23, GOLBAT
 	db 23, GOLBAT
 	; nite
@@ -2049,8 +2049,8 @@ JohtoGrassWildMons:
 	; morn
 	db 23, GEODUDE
 	db 23, GRAVELER
-	db 24, GLIGAR
-	db 20, PHANPY
+	db 24, PHANPY
+	db 20, TEDDIURSA
 	db 25, GRAVELER
 	db 27, SKARMORY
 	db 27, SKARMORY

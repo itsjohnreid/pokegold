@@ -69,8 +69,9 @@ MartViolet:
 	db -1 ; end
 
 MartAzalea:
-	db 9 ; # items
+	db 10 ; # items
 	db CHARCOAL
+	db KINGS_ROCK
 	db POKE_BALL
 	db POTION
 	db SUPER_POTION
@@ -82,17 +83,12 @@ MartAzalea:
 	db -1 ; end
 
 MartCianwood:
-	db 10 ; # items
-	db EVERSTONE
-	db MOON_STONE
-	db SUN_STONE
-	db FIRE_STONE
-	db THUNDERSTONE
-	db WATER_STONE
-	db LEAF_STONE
-	db METAL_COAT
-	db KINGS_ROCK
-	db DRAGON_SCALE
+	db 5 ; # items
+	db POTION
+	db SUPER_POTION
+	db HYPER_POTION
+	db FULL_HEAL
+	db REVIVE
 	db -1 ; end
 
 MartGoldenrod2F1:
@@ -171,7 +167,8 @@ MartGoldenrod5F4:
 	db -1 ; end
 
 MartOlivine:
-	db 9 ; # items
+	db 10 ; # items
+	db METAL_COAT
 	db GREAT_BALL
 	db SUPER_POTION
 	db HYPER_POTION
@@ -206,20 +203,20 @@ MartMahogany1:
 	db -1 ; end
 
 MartMahogany2:
-	db 9 ; # items
+	db 8 ; # items
 	db RAGECANDYBAR
-	db GREAT_BALL
-	db SUPER_POTION
-	db HYPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db SUPER_REPEL
-	db REVIVE
-	db FLOWER_MAIL
+	db EVERSTONE
+	db MOON_STONE
+	db SUN_STONE
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
 	db -1 ; end
 
 MartBlackthorn:
-	db 9 ; # items
+	db 10 ; # items
+	db DRAGON_SCALE
 	db GREAT_BALL
 	db ULTRA_BALL
 	db HYPER_POTION

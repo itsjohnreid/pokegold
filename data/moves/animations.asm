@@ -253,10 +253,10 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_Buzz
+	dw BattleAnim_Shriek
+	dw BattleAnim_VenomFang
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
-	dw BattleAnim_Dummy
-	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
@@ -1872,6 +1872,7 @@ BattleAnim_Roar:
 .done
 	anim_ret
 
+BattleAnim_Buzz:
 BattleAnim_Supersonic:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 .loop
@@ -1882,6 +1883,7 @@ BattleAnim_Supersonic:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_Shriek:
 BattleAnim_Screech:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $1, $20
@@ -4276,6 +4278,7 @@ BattleAnim_Synthesis:
 	anim_call BattleAnimSub_Glimmer2
 	anim_ret
 
+BattleAnim_VenomFang:
 BattleAnim_Crunch:
 	anim_2gfx BATTLE_ANIM_GFX_CUT, BATTLE_ANIM_GFX_HIT
 	anim_bgp $1b
