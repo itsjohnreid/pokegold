@@ -389,7 +389,8 @@ MartMtMoon:
 	db -1 ; end
 
 MartIndigoPlateau:
-	db 7 ; # items
+	db 8 ; # items
+	db RARE_CANDY
 	db ULTRA_BALL
 	db MAX_REPEL
 	db HYPER_POTION

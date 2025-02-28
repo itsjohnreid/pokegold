@@ -27,6 +27,8 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 - Ghost is Special
 - Dark is Physical
 - Added Move Reminder in Move Deleter's house
+- Indigo Plateau mart sells rare candies
+- No password needed for clock reset
 
 ## Bug Fixes
 - Fixed Dragon Scale not Dragon Fang boosting dragon type moves
@@ -126,8 +128,8 @@ Extra:
 - (NEW) Shriek - Ghost, 70 power, 100 accuracy, 20pp, 30% to flinch
 - (NEW) Venom Fang - Poison, 70 power, 100 accuracy, 20pp, 30% chance to poison
 - Cut 70 power, 20pp
-- Flash 50 power, 100 accuracy, 50% accuracy reduction, 20pp
-- Mud Slap 50 power, 100 accuracy, 50% accuracy reduction, 20pp
+- Flash 65 power, 100 accuracy, 50% accuracy reduction, 15pp
+- Mud Slap 50 power, 100 accuracy, 50% accuracy reduction, 15pp
 - Waterfall 30% flinch chance
 - Rock Smash 50 power
 - Whirlpool 35 power, 85 accuracy
@@ -141,6 +143,8 @@ Extra:
 - Comet Punch 20 power
 - Pin Missile 20 power
 - Fury Swipes 20 power
+- Metal Claw 60 power
+- Icy Wind 65 power
 
 ## Buffs
 ### Butterfree

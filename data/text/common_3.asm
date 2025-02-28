@@ -87,7 +87,7 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Password OK."
+	text "Time cleared."
 	line "Select CONTINUE &"
 	cont "reset settings."
 	prompt
