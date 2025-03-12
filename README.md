@@ -126,18 +126,19 @@ Extra:
 ## Moves
 - (NEW) Buzz - Bug, 70 power, 100 accuracy, 20pp, 20% to confuse
 - (NEW) Shriek - Ghost, 70 power, 100 accuracy, 20pp, 30% to flinch
-- (NEW) Venom Fang - Poison, 70 power, 100 accuracy, 20pp, 30% chance to poison
-- Cut 70 power, 20pp
+- (NEW) Venom Fang - Poison, 70 power, 100 accuracy, 20pp, 30% chance to paralyze
+- Cut 70 power, high crit, 20pp
+- Strength is now rock type
 - Flash 65 power, 100 accuracy, 50% accuracy reduction, 15pp
 - Mud Slap 50 power, 100 accuracy, 50% accuracy reduction, 15pp
 - Waterfall 30% flinch chance
 - Rock Smash 50 power
-- Whirlpool 35 power, 85 accuracy
-- Fire Spin 35 power, 85 accuracy
+- Whirlpool 70 power, 85 accuracy
+- Fire Spin 70 power, 85 accuracy
 - Lick 30 power
 - Vine Whip 40 power, 25pp
 - Poison Sting 25 power
-- Leech Life 40 power
+- Leech Life 50 power
 - Mega Drain 15pp
 - Giga Drain 70 power, 10pp
 - Comet Punch 20 power
@@ -279,7 +280,7 @@ Extra:
 
 ### Aipom
 - Mega punch instead of Scratch
-- +10 All stats
+- +20 All stats
 
 ### Yanma
 - Quick Attack level 1
