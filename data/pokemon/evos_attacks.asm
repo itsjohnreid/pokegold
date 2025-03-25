@@ -2259,9 +2259,9 @@ LedybaEvosAttacks:
 	db 22, REFLECT
 	db 22, SAFEGUARD
 	db 29, BATON_PASS
+	db 29, DOUBLE_EDGE
 	db 36, SWIFT
 	db 43, AGILITY
-	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 LedianEvosAttacks:
@@ -2274,9 +2274,9 @@ LedianEvosAttacks:
 	db 24, REFLECT
 	db 24, SAFEGUARD
 	db 33, BATON_PASS
+	db 33, DOUBLE_EDGE
 	db 42, SWIFT
 	db 51, AGILITY
-	db 60, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 SpinarakEvosAttacks:
@@ -2289,9 +2289,9 @@ SpinarakEvosAttacks:
 	db 17, NIGHT_SHADE
 	db 23, LEECH_LIFE
 	db 30, VENOM_FANG
+	db 30, PSYCHIC_M
 	db 37, SPIDER_WEB
 	db 45, SCREECH
-	db 53, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 AriadosEvosAttacks:
@@ -2305,9 +2305,9 @@ AriadosEvosAttacks:
 	db 17, NIGHT_SHADE
 	db 25, LEECH_LIFE
 	db 34, VENOM_FANG
+	db 34, PSYCHIC_M
 	db 43, SPIDER_WEB
 	db 53, SCREECH
-	db 63, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 CrobatEvosAttacks:

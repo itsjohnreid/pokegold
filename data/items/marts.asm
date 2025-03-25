@@ -267,7 +267,7 @@ MartCerulean:
 	db -1 ; end
 
 MartLavender:
-	db 5 ; # items
+	db 6 ; # items
 	db GREAT_BALL
 	db POTION
 	db SUPER_POTION

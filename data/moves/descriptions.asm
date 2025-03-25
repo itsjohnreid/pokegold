@@ -324,8 +324,8 @@ SwordsDanceDescription:
 	next "creases ATTACK.@"
 
 CutDescription:
-	db   "Cuts using claws,"
-	next "scythes, etc.@"
+	db   "Cuts the foe's HP"
+	next "by 1/2.@"
 
 GustDescription:
 	db   "Whips up a strong"
@@ -544,8 +544,8 @@ SeismicTossDescription:
 	next "equals damage HP.@"
 
 StrengthDescription:
-	db   "A powerful physi-"
-	next "cal attack.@"
+	db   "Hurls a boulder"
+	next "at the foe.@"
 
 AbsorbDescription:
 	db   "Steals 1/2 of the"
@@ -772,8 +772,8 @@ FireBlastDescription:
 	next "may cause a burn.@"
 
 WaterfallDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Inaccurate but"
+	next "causes flinching.@"
 
 ClampDescription:
 	db   "Traps the foe for"

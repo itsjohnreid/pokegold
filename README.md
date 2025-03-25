@@ -127,12 +127,13 @@ Extra:
 - (NEW) Buzz - Bug, 70 power, 100 accuracy, 20pp, 20% to confuse
 - (NEW) Shriek - Ghost, 70 power, 100 accuracy, 20pp, 30% to flinch
 - (NEW) Venom Fang - Poison, 70 power, 100 accuracy, 20pp, 30% chance to paralyze
-- Cut 70 power, high crit, 20pp
+- Cut has same effect as super fang (cuts health)
 - Strength is now rock type
-- Flash 65 power, 100 accuracy, 50% accuracy reduction, 15pp
-- Mud Slap 50 power, 100 accuracy, 50% accuracy reduction, 15pp
-- Waterfall 30% flinch chance
-- Rock Smash 50 power
+- Fly and Dig 80 power, 100 accuracy, 15 pp
+- Flash and Mud Slap 40 power, 100 accuracy, 15pp
+- Waterfall 120 power, 100% flinch, 50% accuracy, 10pp, spruced up animation
+- Zap Cannon and Dynamic Punch 120 power 10pp
+- Rock Smash 60 power
 - Whirlpool 70 power, 85 accuracy
 - Fire Spin 70 power, 85 accuracy
 - Lick 30 power
@@ -146,6 +147,8 @@ Extra:
 - Fury Swipes 20 power
 - Metal Claw 60 power
 - Icy Wind 65 power
+- Thief 70 power
+- Faint Attack, Swift 70 power
 
 ## Buffs
 ### Butterfree
@@ -228,8 +231,14 @@ Extra:
 ### Flareon
 - Flame Wheel instead of Ember
 
+### Kabutops
+- Can learn Strength
+
 ### Meganium
 - +20 HP = 100
+
+### Feraligatr
+- Can learn Waterfall
 
 ### Furret
 - +10 Speed = 100
@@ -242,15 +251,17 @@ Extra:
 
 ### Ledian
 - Buzz egg move
-- +30 Atk = 65
-- +20 Spatk = 75
-- +10 Spdef = 120
+- Double-Edge level 33
+- +45 Atk = 80
+- +45 Spatk = 100
 
 ### Ariados
 - Venom Fang instead of Fury Swipes (and spinarak)
-- +30 Atk = 120
-- +15 HP = 85
-- +15 Spatk = 75
+- Psychic level 34
+- +20 Atk = 110
+- +20 HP = 90
+- +10 Def = 80
+- +40 Spatk = 100
 
 ### Lanturn
 - +14 Spatk = 90
