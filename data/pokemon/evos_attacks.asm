@@ -2875,7 +2875,7 @@ HeracrossEvosAttacks:
 	db 1, LEER
 	db 6, HORN_ATTACK
 	db 12, ENDURE
-	db 19, FURY_ATTACK
+	db 19, VITAL_THROW
 	db 27, COUNTER
 	db 35, TAKE_DOWN
 	db 44, REVERSAL

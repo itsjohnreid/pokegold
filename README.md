@@ -349,6 +349,9 @@ Extra:
 ### Shuckle
 - +40 HP = 60
 
+### Heracross
+- Vital throw instead of Fury Attack
+
 ### Sneasel
 - Fury Swipes level 1
 - Quick attack level 9
