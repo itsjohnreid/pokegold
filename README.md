@@ -17,7 +17,8 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 ## General
 - Fast text speed by default
 - Increase shiny odds to 1/256 (All DVs are >= 12)
-- Red Gyarados has all 13 DVs (to ensure it's still shiny with new criteria).
+- Red Gyarados has DVs 15, 14, 15, 15 which makes its hidden power 70 power dragon
+- Red Gyarados knows flamethrower
 - Lugia/Ho-Oh re-learn signature moves at level 70
 - Evolution stones sold at Mahogany Mart (after Rocket's gone)
 - King's Rock sold at Azalea Mart
@@ -27,7 +28,7 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 - Ghost is Special
 - Dark is Physical
 - Added Move Reminder in Move Deleter's house
-- Indigo Plateau mart sells rare candies
+- Indigo Plateau mart sells rare candies and PP ups
 - No password needed for clock reset
 
 ## Bug Fixes

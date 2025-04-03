@@ -5870,8 +5870,8 @@ LoadEnemyMon:
 	cp BATTLETYPE_FORCESHINY
 	jr nz, .GenerateDVs
 
-	ld b, ATKDEFDV_SHINY ; $dd
-	ld c, SPDSPCDV_SHINY ; $dd
+	ld b, ATKDEFDV_SHINY ; $fe
+	ld c, SPDSPCDV_SHINY ; $ff
 	jr .UpdateDVs
 
 .GenerateDVs:
@@ -6136,6 +6136,15 @@ LoadEnemyMon:
 	ld [wSkipMovesBeforeLevelUp], a
 ; Fill moves based on level
 	predef FillMoves
+
+	ld a, [wBattleType]  ; Load battle type from memory
+	cp BATTLETYPE_FORCESHINY
+	jr nz, .PP  ; If not forced shiny, skip move change
+
+; Set the fourth move to Flamethrower (used for Red Gyarados)
+	ld hl, wEnemyMonMoves + 3  ; Fourth move slot
+	ld a, FLAMETHROWER         ; Move ID for Flamethrower
+	ld [hl], a                 ; Store it
 
 .PP:
 ; Trainer battle?

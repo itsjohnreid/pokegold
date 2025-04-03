@@ -487,7 +487,13 @@ SECTION UNION "Overworld Map", WRAM0
 ; unused sprite anims
 	ds 4
 wUnusedPikachuFrameset:: db
-	ds 18
+
+	ds 10
+
+wBuffer1:: db
+
+	ds 7
+
 wUnusedJigglypuffNoteXCoord:: db
 
 
@@ -1731,7 +1737,7 @@ wStringBuffer5:: ds MOVE_NAME_LENGTH
 
 wBattleMenuCursorPosition:: db
 
-wBuffer1:: db
+		ds 1
 
 wCurBattleMon::
 ; index of the player's mon currently in battle (0-5)
@@ -1747,7 +1753,7 @@ wKeyItemsPocketCursor:: db
 wBallsPocketCursor:: db
 wTMHMPocketCursor:: db
 
-	ds 1
+		ds 1
 
 wItemsPocketScrollPosition:: db
 wKeyItemsPocketScrollPosition:: db

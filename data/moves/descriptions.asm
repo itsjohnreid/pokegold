@@ -1281,4 +1281,4 @@ ShriekDescription:
 
 VenomFangDescription:
 	db   "An attack that may"
-	next "poison the foe.@"
+	next "paralyze the foe.@"
